@@ -87,9 +87,7 @@ var result = listShoes
 }
 
 selectContainer.addEventListener('change', () =>{
-    console.log('function ',selectContainer.value);
     productsContainer.innerHTML = getCategoryShoes(selectContainer.value);
-    console.log(productsContainer.innerHTML);
 });
 
 
