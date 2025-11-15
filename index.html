@@ -6,83 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Build a Gallery shoes App Filter</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>Athletes Shoes</h1>
-    <main>
-        <select class="select-container">
-            <option id="all" value="all">All</option>
-            <option id="sport" value="sport">Sport</option>
-            <option id="formal" value="formal">Formal</option>
-            <option id="luxury" value="luxury">Luxury</option>
-            <option id="Casual" value="casual">Casual</option>
-            <option id="hiking" value="hiking">Hiking</option>
-        </select>
-        <div class="products-container">
-            <div class="card">
-                <h2>Nike Air Max</h2>
-                <p>$120</p>
-            </div>
+    <div class="container">
+        <h1>Gallery Athletes Shoes</h1>
 
-            <div class="card">
-                <h2>Adidas Ultraboost</h2>
-                <p>$150</p>
-            </div>
+        <main>
+            <select class="select-container">
+                <option value="all">All</option>
+                <option value="sport">Sport</option>
+                <option value="formal">Formal</option>
+                <option value="luxury">Luxury</option>
+                <option value="casual">Casual</option>
+                <option value="hiking">Hiking</option>
+            </select>
 
-            <div class="card">
-                <h2>Clarks Originals</h2>
-                <p>$110</p>
-            </div>
+            <div class="products-container"></div>
+        </main>
+    </div>
 
-            <div class="card">
-                <h2>Timberland Classic</h2>
-                <p>$140</p>
-            </div>
+    <footer class="footer">
+        <p>© 2025 Athletes Shoes · Crafted with Passion for Sport ⚡</p>
+    </footer>
 
-            <div class="card">
-                <h2>Timberland Classic</h2>
-                <p>$140</p>
-            </div>
-
-            <div class="card">
-                <h2>Gucci Ace</h2>
-                <p>$550</p>
-            </div>
-
-
-            <div class="card">
-                <h2>Louis Vuitton Trainer</h2>
-                <p>$890</p>
-            </div>
-
-            <div class="card">
-                <h2>Converse Chuck Taylor</h2>
-                <p>$70</p>
-            </div>
-
-
-            <div class="card">
-                <h2>Vans Old Skool</h2>
-                <p>$80</p>
-            </div>
-
-            <div class="card">
-                <h2>Salomon X Ultra 4</h2>
-                <p>$130</p>
-            </div>
-
-
-            <div class="card">
-                <h2>Merrell Moab 3</h2>
-                <p>$115</p>
-            </div>
-
-
-        </div>
-
-    </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
